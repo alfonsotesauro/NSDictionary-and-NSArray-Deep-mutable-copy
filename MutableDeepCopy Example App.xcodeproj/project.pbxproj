@@ -249,7 +249,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = "MutableDeepCopy Example App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alfonsotesauro.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,7 +261,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Test/Info.plist;
+				INFOPLIST_FILE = "MutableDeepCopy Example App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alfonsotesauro.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
