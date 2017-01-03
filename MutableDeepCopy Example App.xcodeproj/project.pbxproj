@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D708875A1C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70887591C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m */; };
+		D744CFD31C1F806E00396F2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D744CFD21C1F806E00396F2F /* AppDelegate.m */; };
+		D744CFD61C1F806E00396F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D744CFD51C1F806E00396F2F /* main.m */; };
+		D744CFD81C1F806E00396F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D744CFD71C1F806E00396F2F /* Assets.xcassets */; };
+		D744CFDB1C1F806E00396F2F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D744CFD91C1F806E00396F2F /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D70887581C3A03F30062C991 /* NSDictionary+MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MutableDeepCopy.h"; sourceTree = "<group>"; };
+		D70887591C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MutableDeepCopy.m"; sourceTree = "<group>"; };
+		D744CFCE1C1F806E00396F2F /* MutableDeepCopy Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MutableDeepCopy Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D744CFD11C1F806E00396F2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D744CFD21C1F806E00396F2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D744CFD51C1F806E00396F2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D744CFD71C1F806E00396F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D744CFDA1C1F806E00396F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D744CFDC1C1F806E00396F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D744CFCB1C1F806E00396F2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D744CFC51C1F806E00396F2F = {
+			isa = PBXGroup;
+			children = (
+				D744CFD01C1F806E00396F2F /* MutableDeepCopy Example App */,
+				D744CFCF1C1F806E00396F2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D744CFCF1C1F806E00396F2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D744CFCE1C1F806E00396F2F /* MutableDeepCopy Example App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D744CFD01C1F806E00396F2F /* MutableDeepCopy Example App */ = {
+			isa = PBXGroup;
+			children = (
+				D744CFD11C1F806E00396F2F /* AppDelegate.h */,
+				D744CFD21C1F806E00396F2F /* AppDelegate.m */,
+				D70887581C3A03F30062C991 /* NSDictionary+MutableDeepCopy.h */,
+				D70887591C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m */,
+				D744CFD71C1F806E00396F2F /* Assets.xcassets */,
+				D744CFD91C1F806E00396F2F /* MainMenu.xib */,
+				D744CFDC1C1F806E00396F2F /* Info.plist */,
+				D744CFD41C1F806E00396F2F /* Supporting Files */,
+			);
+			path = "MutableDeepCopy Example App";
+			sourceTree = "<group>";
+		};
+		D744CFD41C1F806E00396F2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D744CFD51C1F806E00396F2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D744CFCD1C1F806E00396F2F /* MutableDeepCopy Example App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D744CFDF1C1F806E00396F2F /* Build configuration list for PBXNativeTarget "MutableDeepCopy Example App" */;
+			buildPhases = (
+				D744CFCA1C1F806E00396F2F /* Sources */,
+				D744CFCB1C1F806E00396F2F /* Frameworks */,
+				D744CFCC1C1F806E00396F2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MutableDeepCopy Example App";
+			productName = Test;
+			productReference = D744CFCE1C1F806E00396F2F /* MutableDeepCopy Example App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D744CFC61C1F806E00396F2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alfonso Maria Tesauro";
+				TargetAttributes = {
+					D744CFCD1C1F806E00396F2F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D744CFC91C1F806E00396F2F /* Build configuration list for PBXProject "MutableDeepCopy Example App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D744CFC51C1F806E00396F2F;
+			productRefGroup = D744CFCF1C1F806E00396F2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D744CFCD1C1F806E00396F2F /* MutableDeepCopy Example App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D744CFCC1C1F806E00396F2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D744CFD81C1F806E00396F2F /* Assets.xcassets in Resources */,
+				D744CFDB1C1F806E00396F2F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D744CFCA1C1F806E00396F2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D744CFD61C1F806E00396F2F /* main.m in Sources */,
+				D708875A1C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m in Sources */,
+				D744CFD31C1F806E00396F2F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D744CFD91C1F806E00396F2F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D744CFDA1C1F806E00396F2F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D744CFDD1C1F806E00396F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D744CFDE1C1F806E00396F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D744CFE01C1F806E00396F2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfonsotesauro.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D744CFE11C1F806E00396F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfonsotesauro.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D744CFC91C1F806E00396F2F /* Build configuration list for PBXProject "MutableDeepCopy Example App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D744CFDD1C1F806E00396F2F /* Debug */,
+				D744CFDE1C1F806E00396F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D744CFDF1C1F806E00396F2F /* Build configuration list for PBXNativeTarget "MutableDeepCopy Example App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D744CFE01C1F806E00396F2F /* Debug */,
+				D744CFE11C1F806E00396F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D744CFC61C1F806E00396F2F /* Project object */;
+}
