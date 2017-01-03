@@ -5,28 +5,13 @@
 NSInteger count;
 NSInteger count2;
 
--(id)mutableDeepCopy
-{
-    
-    id pippo = [self doDeepMutateDictionary:self];
-
-    return pippo;
-    
-}
-
--(id)mutableDeepCopyWithOptions
-{
-    return [self doDeepMutateDictionary:self];
-}
-
--(NSMutableDictionary *)doDeepMutateDictionary:(NSDictionary *)dict
++(NSMutableDictionary *)doDeepMutateDictionary:(NSDictionary *)dict
 {
     count++;
     NSMutableDictionary *toReturn = [NSMutableDictionary dictionaryWithDictionary:dict];
     
     [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
         
-        //NSLog(@"key = %@ - description = %@",key,[obj description]);
         
         if ([obj isKindOfClass:[NSDictionary class]])
         {
@@ -49,7 +34,7 @@ NSInteger count2;
     
 }
 
--(NSMutableArray *)doDeepMutateArray:(NSArray *)array
++(NSMutableArray *)doDeepMutateArray:(NSArray *)array
 {
     count2++;
 

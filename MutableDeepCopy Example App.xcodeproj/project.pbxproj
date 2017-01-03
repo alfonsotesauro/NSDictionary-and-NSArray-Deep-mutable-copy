@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D708875A1C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = D70887591C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m */; };
+		D71103FB1E1B59690000AF68 /* NSArray+MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = D71103FA1E1B59690000AF68 /* NSArray+MutableDeepCopy.m */; };
 		D744CFD31C1F806E00396F2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D744CFD21C1F806E00396F2F /* AppDelegate.m */; };
 		D744CFD61C1F806E00396F2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D744CFD51C1F806E00396F2F /* main.m */; };
 		D744CFD81C1F806E00396F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D744CFD71C1F806E00396F2F /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 /* Begin PBXFileReference section */
 		D70887581C3A03F30062C991 /* NSDictionary+MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MutableDeepCopy.h"; sourceTree = "<group>"; };
 		D70887591C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MutableDeepCopy.m"; sourceTree = "<group>"; };
+		D71103F91E1B59620000AF68 /* NSArray+MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MutableDeepCopy.h"; sourceTree = "<group>"; };
+		D71103FA1E1B59690000AF68 /* NSArray+MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MutableDeepCopy.m"; sourceTree = "<group>"; };
 		D744CFCE1C1F806E00396F2F /* MutableDeepCopy Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MutableDeepCopy Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D744CFD11C1F806E00396F2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D744CFD21C1F806E00396F2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 			children = (
 				D744CFD11C1F806E00396F2F /* AppDelegate.h */,
 				D744CFD21C1F806E00396F2F /* AppDelegate.m */,
+				D71103F91E1B59620000AF68 /* NSArray+MutableDeepCopy.h */,
+				D71103FA1E1B59690000AF68 /* NSArray+MutableDeepCopy.m */,
 				D70887581C3A03F30062C991 /* NSDictionary+MutableDeepCopy.h */,
 				D70887591C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m */,
 				D744CFD71C1F806E00396F2F /* Assets.xcassets */,
@@ -147,6 +152,7 @@
 			files = (
 				D744CFD61C1F806E00396F2F /* main.m in Sources */,
 				D708875A1C3A03F30062C991 /* NSDictionary+MutableDeepCopy.m in Sources */,
+				D71103FB1E1B59690000AF68 /* NSArray+MutableDeepCopy.m in Sources */,
 				D744CFD31C1F806E00396F2F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
