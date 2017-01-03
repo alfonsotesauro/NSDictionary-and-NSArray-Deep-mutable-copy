@@ -1,4 +1,4 @@
-# NSDictionary-Deep-mutable-copy
+# NSDictionary and NSArray mutable deep copy
 
 
 This rep contains two small categories to NSArray and NSDictionary, that create a copy of
