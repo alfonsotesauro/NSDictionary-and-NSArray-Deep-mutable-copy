@@ -13,9 +13,6 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSTreeController            *myTreeController;
-@property (assign) IBOutlet NSDictionaryController      *myDictController;
-
 @property (strong) NSMutableDictionary                  *myDict;
 
 

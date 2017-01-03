@@ -16,8 +16,6 @@
 
 @implementation AppDelegate
 
-@synthesize myTreeController;
-@synthesize myDictController;
 @synthesize myDict;;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
@@ -34,9 +32,7 @@
     // check they have been turned to their mutable counterparts.
 
     self.myDict = [NSDictionary doDeepMutateDictionary:defaultsDictionaryRepresentation];
-    
-    [self.myDictController rearrangeObjects];
-    
+        
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
