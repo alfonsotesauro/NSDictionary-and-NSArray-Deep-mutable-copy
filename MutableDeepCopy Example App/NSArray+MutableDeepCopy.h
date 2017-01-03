@@ -13,6 +13,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (MutableDeepCopy)
+@interface NSArray (MutableDeepCopy)
 
 @end

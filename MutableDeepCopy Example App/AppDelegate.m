@@ -33,7 +33,7 @@
     // In fact, after the mutable dict copy, we may want to inspect the returned dictionary keys to
     // check they have been turned to their mutable counterparts.
 
-    self.myDict = [defaultsDictionaryRepresentation mutableDeepCopy];
+    self.myDict = [NSDictionary doDeepMutateDictionary:defaultsDictionaryRepresentation];
     
     [self.myDictController rearrangeObjects];
     

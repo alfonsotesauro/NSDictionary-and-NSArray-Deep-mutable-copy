@@ -15,4 +15,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 @interface NSDictionary (MutableDeepCopy)
 
++(NSMutableDictionary *)doDeepMutateDictionary:(NSDictionary *)dict;
+
 @end

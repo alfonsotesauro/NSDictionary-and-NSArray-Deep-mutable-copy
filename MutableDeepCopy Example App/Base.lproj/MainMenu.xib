@@ -674,7 +674,7 @@
             <windowPositionMask key="initialPositionMask" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="1325" y="996" width="593" height="360"/>
             <rect key="screenRect" x="0.0" y="0.0" width="3200" height="1778"/>
-            <value key="minSize" type="size" width="800" height="360"/>
+            <value key="minSize" type="size" width="593" height="360"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="593" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -707,11 +707,11 @@
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView id="ih9-oH-BFe">
-                                                    <rect key="frame" x="1" y="1" width="341.5" height="17"/>
+                                                    <rect key="frame" x="1" y="1" width="341" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4H-e6-cWh">
-                                                            <rect key="frame" x="0.0" y="0.0" width="341.5" height="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="341" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                             <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="FJl-Dt-7NY">
                                                                 <font key="font" metaFont="system"/>
@@ -743,11 +743,11 @@
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView id="VxF-Ur-Rem">
-                                                    <rect key="frame" x="345.5" y="1" width="203.5" height="17"/>
+                                                    <rect key="frame" x="345.5" y="1" width="203" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8F-W6-HEd">
-                                                            <rect key="frame" x="0.0" y="0.0" width="203.5" height="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="203" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                             <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="814-Qj-jWf">
                                                                 <font key="font" metaFont="system"/>

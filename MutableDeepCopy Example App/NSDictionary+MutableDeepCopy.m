@@ -2,12 +2,10 @@
 
 @implementation NSDictionary (MutableDeepCopy)
 
-NSInteger count;
-NSInteger count2;
+
 
 +(NSMutableDictionary *)doDeepMutateDictionary:(NSDictionary *)dict
 {
-    count++;
     NSMutableDictionary *toReturn = [NSMutableDictionary dictionaryWithDictionary:dict];
     
     [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
@@ -36,8 +34,6 @@ NSInteger count2;
 
 +(NSMutableArray *)doDeepMutateArray:(NSArray *)array
 {
-    count2++;
-
     NSMutableArray *toReturn = [NSMutableArray arrayWithArray:array];
     
     for (id obj in array)
