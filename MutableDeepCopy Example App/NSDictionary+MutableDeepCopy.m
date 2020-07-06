@@ -1,11 +1,10 @@
 #import "NSDictionary+MutableDeepCopy.h"
+#import "NSArray+MutableDeepCopy.h"
 
 @implementation NSDictionary (MutableDeepCopy)
 
-
-
-+(NSMutableDictionary *)doDeepMutateDictionary:(NSDictionary *)dict
-{
++ (NSMutableDictionary *)doDeepMutateDictionary:(NSDictionary *)dict {
+    
     NSMutableDictionary *toReturn = [NSMutableDictionary dictionaryWithDictionary:dict];
     
     [dict enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
@@ -20,42 +19,13 @@
         else
             if ([obj isKindOfClass:[NSArray class]])
             {
-                NSMutableArray *theNew = [self doDeepMutateArray:obj];
+                NSMutableArray *theNew = [NSMutableArray doDeepMutateArray:obj];
                 
                 [toReturn setValue:theNew forKey:key];
                 
             }
         
     }];
-    
-    return toReturn;
-    
-}
-
-+(NSMutableArray *)doDeepMutateArray:(NSArray *)array
-{
-    NSMutableArray *toReturn = [NSMutableArray arrayWithArray:array];
-    
-    for (id obj in array)
-    {
-        
-        if ([obj isKindOfClass:[NSDictionary class]])
-        {
-            
-            NSMutableDictionary *theNew = [self doDeepMutateDictionary:obj];
-            
-            [toReturn replaceObjectAtIndex:[array indexOfObject:obj] withObject:theNew];
-        }
-        else
-            if ([obj isKindOfClass:[NSArray class]])
-            {
-                NSMutableArray *theNew = [self doDeepMutateArray:obj];
-                
-                [toReturn replaceObjectAtIndex:[array indexOfObject:obj] withObject:theNew];
-                
-            }
-        
-    }
     
     return toReturn;
     

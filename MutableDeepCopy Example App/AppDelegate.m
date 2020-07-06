@@ -32,7 +32,9 @@
     // check they have been turned to their mutable counterparts.
 
     self.myDict = [NSDictionary doDeepMutateDictionary:defaultsDictionaryRepresentation];
-        
+    
+    NSLog(@"Eccoci");
+    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
